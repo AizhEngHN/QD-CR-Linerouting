@@ -1,0 +1,127 @@
+{
+  "validations": [
+    {
+      "id": "validation_henan_01",
+      "bounds_utm_m": [
+        284000,
+        3779000,
+        314000,
+        3809000
+      ],
+      "crs": "EPSG:32650",
+      "dem": [
+        "N34_00_E114_00"
+      ],
+      "worldcover": "N33E114"
+    },
+    {
+      "id": "validation_westdelta_01",
+      "bounds_utm_m": [
+        620000,
+        2460000,
+        650000,
+        2490000
+      ],
+      "crs": "EPSG:32649",
+      "dem": [
+        "N22_00_E112_00"
+      ],
+      "worldcover": "N21E111"
+    },
+    {
+      "id": "validation_zhaoqing_01",
+      "bounds_utm_m": [
+        610000,
+        2547000,
+        640000,
+        2577000
+      ],
+      "crs": "EPSG:32649",
+      "dem": [
+        "N23_00_E112_00"
+      ],
+      "worldcover": "N21E111"
+    }
+  ],
+  "development": [
+    {
+      "bounds_utm_m": [
+        251000,
+        3822000,
+        281000,
+        3852000
+      ],
+      "crs": "EPSG:32650",
+      "dem": [
+        "N34_00_E114_00"
+      ],
+      "worldcover": "N33E114",
+      "id": "plain_kaifeng_supp"
+    },
+    {
+      "bounds_utm_m": [
+        681000,
+        2458000,
+        711000,
+        2488000
+      ],
+      "crs": "EPSG:32649",
+      "dem": [
+        "N22_00_E112_00",
+        "N22_00_E113_00"
+      ],
+      "worldcover": "N21E111",
+      "id": "plain_taishan_supp"
+    },
+    {
+      "bounds_utm_m": [
+        819000,
+        2497000,
+        849000,
+        2527000
+      ],
+      "crs": "EPSG:32649",
+      "dem": [
+        "N22_00_E114_00"
+      ],
+      "worldcover": "N21E114",
+      "id": "urban_shenzhen"
+    }
+  ],
+  "seeds": [
+    536301,
+    536302,
+    536303,
+    536304,
+    536305,
+    536306,
+    536307,
+    536308,
+    536309,
+    536310
+  ],
+  "endpoints_local_km": [
+    [
+      3.05,
+      3.05
+    ],
+    [
+      26.95,
+      26.95
+    ]
+  ],
+  "expected_model_sha256": {
+    "validation_henan_01/base": "b66be898bb55d97d0c01961c83b5101defa5a6c3ba3b1ee196542ac71aad56f2",
+    "validation_henan_01/core100": "a4ac9fd7e011082224219dded11887cd4fca7bafc93bf8d636d82e3b29f4c7bf",
+    "validation_westdelta_01/base": "27cf1ec738710ef576f813dfbfda5b6d734186e7f193b363a63d50bf9dcdbb2b",
+    "validation_westdelta_01/core100": "9cadb678ef2646418d538624191cfd3ff36f778b7cb086b13e911a5f4330437f",
+    "validation_zhaoqing_01/base": "5219ba770bc8e0b9ac8314076d2779665250cb7a1285ae85aec0b60df227861e",
+    "validation_zhaoqing_01/core100": "7a46b19533fd0d25c48865dc9748669318d31a2e55b39829e21f8b5a164ff0d8",
+    "plain_kaifeng_supp/base": "ed3e3d73e7ba1833a5fd035b63c20838cea67bd0cae6a116f114bc48c4f7661b",
+    "plain_kaifeng_supp/core100": "77d99d1fdd319c1ffedd4395522396f82bf7ef67cf8c6c73c6de898820b7a99c",
+    "plain_taishan_supp/base": "fa6fcc791db1fb4032ed2f923f4a56834d4a8667fdbdc8506fed22040cd12afb",
+    "plain_taishan_supp/core100": "c93c018706217459598acffdde053ef2527ccf42f7e1a0b2e79bbd1fe6d97bc0",
+    "urban_shenzhen/base": "891b2523cf65378c3fb529db4ae1bec3dcc4f6b0a67098dae17fcb57c96c3bde",
+    "urban_shenzhen/core100": "7294c8e03e5f2ecbf98e113f13330db0d7a4ce50b829582522df42b005dd73b5"
+  }
+}
